@@ -1,0 +1,25 @@
+- Start out by getting  nix
+
+  sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume
+
+- Install ssh keys
+
+  ssh-keygen
+
+- Get a shell with  packages on nix (this is just in a temp shell, no permanent changes)
+
+  nix-shell -p git emacs
+
+- Go to dotfiles/home (containing shell.nix) and launch a fresh nix-shell
+  home $> nix-shell
+
+- Now use home-manager to install packages, using build and switch flags
+  (to build, but not install it)
+  
+  home-manager build 
+
+- now use switch to actually install it (-b bak will move files that are clashing automatically to <file>.bak)
+
+  home-manager switch
+
+  home-manager switch -b bak

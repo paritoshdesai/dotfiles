@@ -15,13 +15,13 @@
 (load custom-file)
 
                                         ; PERSONAL PACKAGES
-(add-to-list 'load-path "~/.emacs.d/packages")
+(add-to-list 'load-deepath "~/.emacs.d/packages")
 (add-to-list 'load-path (dotfile "emacs/packages"))
 
                                         ; MAC-SPECIFIC SETTINGS
 (when (eq system-type 'darwin)
   (setq mac-command-modifier 'meta)
-  (setq mac-option-modifier nil)
+  (setq mac-option-modifier 'meta)
 
   (global-set-key (kbd "C-M-c") 'toggle-frame-fullscreen))
 

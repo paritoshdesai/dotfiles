@@ -3,6 +3,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(blink-cursor-mode nil)
+ '(column-number-mode t)
  '(describe-char-unidata-list
    '(name old-name general-category decomposition uppercase lowercase titlecase))
  '(package-selected-packages
@@ -11,6 +13,9 @@
    '((python-shell-interpreter . "bin/nix-aware-python")
      (python-shell-interpreter . "nix-shell")))
  '(send-mail-function 'sendmail-send-it)
+ '(show-paren-mode t)
+ '(tool-bar-mode nil)
+ '(transient-mark-mode nil)
  '(warning-suppress-log-types '((comp) (comp)))
  '(warning-suppress-types '((comp))))
 (custom-set-faces
@@ -18,7 +23,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
+ '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal :foundry "nil" :family "Courier New" :height 141))))
  '(company-scrollbar-bg ((t (:background "#19b3224446ac"))))
  '(company-scrollbar-fg ((t (:background "#12df192a33e6"))))
  '(company-tooltip ((t (:inherit default :background "#0ec713b428a3"))))
