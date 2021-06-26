@@ -110,11 +110,11 @@
       enable = true;
       ignores = [ "*~" ];
 
-      userName = "Tikhon Jelvis";
+      userName = "Paritosh Desai";
 
       extraConfig = {
         ui.color = "always";
-        github.user = "TikhonJelvis";
+        github.user = "paritoshdesai";
         core.fileMode = false;
       };
     };

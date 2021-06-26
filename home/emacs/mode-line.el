@@ -3,7 +3,7 @@
 
 (set-face-attribute 'mode-line nil
                     :foreground "Black"
-                    :background "DarkOrange"
+                    :background "Orange"
                     :box nil)
 
                                         ; ICONS
