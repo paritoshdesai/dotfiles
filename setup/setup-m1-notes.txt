@@ -23,3 +23,8 @@
   home-manager switch
 
   home-manager switch -b bak
+
+- We had to work through a few setup bugs and needed to do the following (9Jul2021):
+  > fix the cabal/config file to point to the right home directory (/Users/paritosh)
+  > Had to use a different version of GHC
+  > need to start lorri shell in Haskell-by-Example
