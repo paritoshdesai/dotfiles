@@ -30,22 +30,11 @@
   > need to start lorri shell in Haskell-by-Example
 
 
-210712904123180
-
-Your File Reference Number is
-
-USAS07FBBN21 
-
-
-
 -----------------------------------------------------------------------------
+27 Jan 2022
 
-16 Jul 2021
+nix/dotfiles upgrade
 
-- we tried running sell in Emacs (in RL-book/haskell directory)
-- then, we did "lorri shell" "cabal build" --> didn't work with vector package not found
-- after lot of heartache, "cabal clean" and "cabal build" fixed it!
-- <<Tip>> C-c s to start a new shell
+>> Added remote 'TikhonJelvis' from magit
 
-- In order to get a localized env, we should navigate to head-of-repo/haskell, launch shell (at this location)
-  and run nix-shell or "lorri shell" -- might need to do this first time one is initializing for the new repo
+
